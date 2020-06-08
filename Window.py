@@ -97,7 +97,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "PySub"))
         self.btnBrowse.setText(_translate("MainWindow", "Browse"))
         self.label.setText(_translate("MainWindow", "Video location"))
         self.checkBox.setText(_translate("MainWindow", "Use same name as video"))
